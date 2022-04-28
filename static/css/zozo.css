@@ -219,8 +219,8 @@ hr {
 .post .post_title a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #1f1f1f;
-  font-size: 1.5rem;
+  color: #000000;
+  font-size: 1.85rem;
   line-height: 28px;
 }
 
@@ -472,7 +472,7 @@ hr {
 }
 
 .markdown h1 {
-  font-size: 2.25em;
+  font-size: 1.85em;
 }
 
 .markdown h2 {
