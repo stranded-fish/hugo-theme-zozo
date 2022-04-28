@@ -29,6 +29,7 @@ body {
   background-color: #f7f7f7;
   margin: 0;
   padding: 0;
+  counter-reset: h2_counter;
 }
 
 p {
@@ -454,6 +455,11 @@ hr {
   margin: 0.8em 0;
 }
 
+.markdown h2 { counter-reset: h3_counter; }
+.markdown h3 { counter-reset: h4_counter; }
+.markdown h4 { counter-reset: h5_counter; }
+.markdown h5 { counter-reset: h6_counter; }
+
 .markdown h1,
 .markdown h2,
 .markdown h3,
@@ -478,6 +484,31 @@ hr {
 
 .markdown h4 {
   font-size: 1.1em;
+}
+
+.markdown h2:before {
+  counter-increment: h2_counter;
+  content: counter(h2_counter) "\0000a0\0000a0";
+}
+
+.markdown h3:before {
+  counter-increment: h3_counter;
+  content: counter(h2_counter) "." counter(h3_counter) "\0000a0\0000a0";
+}
+
+.markdown h4:before {
+  counter-increment: h4_counter;
+  content: counter(h2_counter) "." counter(h3_counter) "." counter(h4_counter) "\0000a0\0000a0";
+}
+
+.markdown h5:before {
+  counter-increment: h5_counter;
+  content: counter(h2_counter) "." counter(h3_counter) "." counter(h4_counter) "." counter(h5_counter) "\0000a0\0000a0";
+}
+
+.markdown h6:before {
+  counter-increment: h6_counter;
+  content: counter(h2_counter) "." counter(h3_counter) "." counter(h4_counter) "." counter(h5_counter) "." counter(h6_counter) "\0000a0\0000a0";
 }
 
 .markdown pre,
