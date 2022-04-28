@@ -466,7 +466,7 @@ hr {
 .markdown h4,
 .markdown h5,
 .markdown h6 {
-  margin: 20px 0 20px 0;
+  margin: 1em 0 16px 0;
   color: #000000;
   font-weight: 600
 }
