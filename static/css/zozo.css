@@ -254,13 +254,13 @@ hr {
 }
 
 .post .post_content a {
+  color: #08c;
   text-decoration: none;
-  letter-spacing: 1px;
-  color: #e42b2b;
 }
 
 .post .post_content a:hover {
-  color: #8e0000;
+  color: #00a3f5;
+  text-decoration: none;
 }
 
 .post .post_footer {
