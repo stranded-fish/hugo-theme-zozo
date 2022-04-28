@@ -248,9 +248,9 @@ hr {
 }
 
 .post .post_content p {
-  line-height: 2em;
+  line-height: 1.6;
   letter-spacing: 0.2px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .post .post_content a {
@@ -443,7 +443,7 @@ hr {
 }
 
 .markdown {
-  line-height: 1.8em;
+  line-height: 1.6;
   word-wrap: break-word;
   word-break: normal;
   overflow-wrap: break-word;
@@ -523,7 +523,8 @@ hr {
 .markdown pre,
 .markdown code {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.9em;
+  font-size: 15px;
+  line-height: 1.4;
   background: #f8fafc;
   border: none;
   white-space: pre;
@@ -584,7 +585,7 @@ hr {
   font-size: inherit;
   padding: 0 15px;
   color: #5c5c5c;
-  background-color: #f0f0f0;
+  background-color: #f8fafc;
   border-left: 4px solid #d6d6d6
 }
 
