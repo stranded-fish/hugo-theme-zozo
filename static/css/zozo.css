@@ -655,6 +655,15 @@ a.back_to_top:hover span {
   color: #555555;
 }
 
+html body kbd {
+  color: #000;
+  border: 1px solid #d6d6d6;
+  border-bottom: 2px solid #c7c7c7;
+  padding: 2px 4px;
+  background-color: #f0f0f0;
+  border-radius: 3px
+}
+
 @media print, screen and (max-width: 680px) {
   .nav_container {
     position: relative;
