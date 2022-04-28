@@ -593,12 +593,8 @@ hr {
   position: absolute;
 }
 
-.markdown strong,
-.markdown b,
-.markdown em {
-  padding: 1px 2px;
-  background-color: #fcfcf0;
-  font-weight: normal;
+.markdown strong {
+  color: #000;
 }
 
 .markdown .fancybox {
