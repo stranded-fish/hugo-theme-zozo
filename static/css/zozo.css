@@ -571,26 +571,20 @@ hr {
 }
 
 .markdown blockquote {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 2.5em 0;
-  padding: 0 0 0 50px;
-  font-style: italic;
-  color: #555555;
-  border-left: none;
+  margin: 16px 0;
+  font-size: inherit;
+  padding: 0 15px;
+  color: #5c5c5c;
+  background-color: #f0f0f0;
+  border-left: 4px solid #d6d6d6
 }
 
-.markdown blockquote:before {
-  content: '“';
-  display: block;
-  font-family: times, sans-serif;
-  font-style: normal;
-  font-size: 48px;
-  color: #444444;
-  font-weight: bold;
-  line-height: 30px;
-  margin-left: -50px;
-  position: absolute;
+.markdown blockquote>:first-child {
+  margin-top: 0
+}
+
+.markdown blockquote>:last-child {
+  margin-bottom: 0
 }
 
 .markdown strong {
