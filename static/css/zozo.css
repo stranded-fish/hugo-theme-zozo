@@ -178,6 +178,7 @@ hr {
   font-weight: normal !important;
   float: none !important;
   text-align: right;
+  letter-spacing: 1px;
 }
 
 .header .my_socials {
