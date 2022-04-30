@@ -157,7 +157,7 @@ hr {
   width: 65px;
   letter-spacing: 2px;
   line-height: 1.2;
-  color: #000000;
+  color: #1F1F1F;
 }
 
 .header .site_title_container .site_title a span {
@@ -220,8 +220,8 @@ hr {
 .post .post_title a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #000000;
-  font-size: 1.85rem;
+  color: #1F1F1F;
+  font-size: 1.5rem;
   line-height: 28px;
 }
 
@@ -469,24 +469,24 @@ hr {
 .markdown h5,
 .markdown h6 {
   margin: 1em 0 16px 0;
-  color: #000000;
+  color: #1F1F1F;
   font-weight: 600
 }
 
 .markdown h1 {
-  font-size: 1.85em;
-}
-
-.markdown h2 {
-  font-size: 1.75em;
-}
-
-.markdown h3 {
   font-size: 1.5em;
 }
 
+.markdown h2 {
+  font-size: 1.4em;
+}
+
+.markdown h3 {
+  font-size: 1.3em;
+}
+
 .markdown h4 {
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 .markdown h5 {
@@ -735,7 +735,7 @@ html body kbd {
     margin-top: 40px;
   }
   .post .post_title a {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .post_footer {
     padding-bottom: 30px;
