@@ -451,10 +451,15 @@ hr {
   overflow-wrap: break-word;
 }
 
+html body li>p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .markdown ul,
 .markdown ol,
 .markdown dl {
-  margin: 0.8em 0;
+  padding-left: 2em;
 }
 
 .markdown h2 { counter-reset: h3_counter; }
